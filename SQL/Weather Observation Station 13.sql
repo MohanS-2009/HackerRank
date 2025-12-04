@@ -4,7 +4,7 @@ Query the sum of Northern Latitudes (LAT_N) from STATION having values greater t
 Truncate your answer to 4 decimal places.
 
 */
-
 SELECT TRUNCATE(SUM(LAT_N),4) 
 FROM STATION
+
 WHERE LAT_N BETWEEN 38.7880 AND 137.2345
